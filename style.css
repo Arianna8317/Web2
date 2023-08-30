@@ -1,0 +1,29 @@
+            .group {
+                margin-top: 18px;
+                margin-left: 231px;
+                margin-right: 41px;
+            }
+            
+            .button {
+                position: absolute;
+                padding-left: 840px;
+                margin-top: 18px;
+            }
+            
+            .menu {
+                background-image: url('./img/Rectangle_black.png');
+                width: 1600px;
+                height: 75px;
+            }
+            
+            .top {
+                display: grid;
+                grid-template-columns: 800px 800px;
+            }
+            
+            .right {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 16px;
+            }
