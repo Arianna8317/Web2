@@ -1,29 +1,57 @@
-            .group {
-                margin-top: 18px;
-                margin-left: 231px;
-                margin-right: 41px;
-            }
-            
-            .button {
-                position: absolute;
-                padding-left: 840px;
-                margin-top: 18px;
-            }
-            
-            .menu {
-                background-image: url('./img/Rectangle_black.png');
-                width: 1600px;
-                height: 75px;
-            }
-            
-            .top {
-                display: grid;
-                grid-template-columns: 800px 800px;
-            }
-            
-            .right {
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                gap: 16px;
-            }
+                .group {
+                    margin-top: 18px;
+                    margin-left: 231px;
+                    margin-right: 41px;
+                }
+                
+                .button {
+                    position: absolute;
+                    padding-left: 840px;
+                    margin-top: 18px;
+                }
+                
+                .top_menu {
+                    background-image: url('./img/Rectangle_black.png');
+                    width: 1600px;
+                    height: 75px;
+                }
+                
+                .top {
+                    display: grid;
+                    grid-template-columns: 800px 800px;
+                }
+                
+                .right {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 16px;
+                }
+                
+                .menu {
+                    display: grid;
+                    grid-template-columns: repeat(3, 360px);
+                    margin-top: 65px;
+                    margin-left: 230px;
+                    gap: 30px;
+                }
+                
+                .img1 {
+                    background-image: url('./img/lady.png') rgba(33, 22, 22, 0.70) margin-bottom: 30px;
+                    width: 360px;
+                    height: 260px;
+                }
+                
+                .img2 {
+                    background-image: url('./img/man.png');
+                    margin-bottom: 30px;
+                    width: 360px;
+                    height: 260px;
+                }
+                
+                .img3 {
+                    background-image: url('./img/kid.png');
+                    margin-bottom: 30px;
+                    width: 360px;
+                    height: 260px;
+                }
