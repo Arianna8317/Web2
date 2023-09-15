@@ -1,479 +1,500 @@
-         * {
-             text-decoration: none;
-             padding: 0;
-             margin: 0;
-             box-sizing: border-box;
-         }
-         
-         .button {
-             position: relative;
-             margin-top: 26px;
-         }
-         
-         .b2 {
-             height: 29px;
-         }
-         
-         .group {
-             margin-top: 18px;
-             margin-left: 231px;
-             width: 44px;
-             height: 38px;
-         }
-         
-         .top_menu {
-             display: flex;
-             background-color: #000;
-             width: 1600px;
-             height: 75px;
-             flex-direction: space-between;
-             gap: 859px;
-         }
-         
-         .top_menu_left {
-             display: flex;
-             flex-direction: space-between;
-             gap: 41px;
-             margin-bottom: 19px;
-         }
-         
-         .top_menu_right {
-             display: flex;
-             flex-direction: space-between;
-             margin-right: 240px;
-             gap: 25px;
-             width: 159px;
-             margin-bottom: 20px;
-         }
-         
-         .forma {
-             width: 26px;
-             height: 26px;
-             margin-top: 28px;
-         }
-         
-         .menu {
-             display: flex;
-             gap: 30px;
-             margin-top: 65px;
-             margin-left: 230px;
-             margin-bottom: 30px;
-         }
-         
-         .top {
-             display: grid;
-             grid-template-columns: 800px 800px;
-             background-color: #F1E4E6;
-             width: 1600px;
-             height: 764px;
-         }
-         
-         .top1 {
-             width: 800px;
-             height: 764px;
-         }
-         
-         .top2 {
-             width: 12px;
-             height: 92px;
-         }
-         
-         .top3 {
-             width: 377px;
-             height: 93px;
-         }
-         
-         .right {
-             display: flex;
-             flex-direction: row;
-             align-items: center;
-             gap: 16px;
-         }
-         
-         .img4 {
-             margin-left: 230px;
-             width: 1140px;
-             height: 180px;
-             margin-bottom: 96px;
-         }
-         
-         body {
-             font-family: 'Lato', sans-serif;
-         }
-         
-         h1 {
-             color: #222;
-             font-family: Lato;
-             font-size: 30px;
-             font-style: normal;
-             font-weight: 400;
-             line-height: normal;
-             text-indent: 710px;
-         }
-         
-         h2 {
-             color: #9F9F9F;
-             font-family: Lato;
-             font-size: 14px;
-             font-style: normal;
-             font-weight: 400;
-             line-height: normal;
-             text-indent: 631px;
-         }
-         
-         .content1 {
-             display: grid;
-             grid-template-columns: repeat(3, 360px);
-             grid-template-rows: 581px;
-             margin-left: 230px;
-             gap: 30px;
-             margin-top: 47px;
-             margin-bottom: 46px;
-         }
-         
-         .img1_1 {
-             background-image: url('./img/Rectangle_rose.png');
-             padding-left: 108px;
-             padding-top: 9px;
-             padding-bottom: 9px;
-             height: 420px;
-             background-repeat: repeat;
-         }
-         
-         h3 {
-             color: #000;
-             font-family: Lato;
-             font-size: 13px;
-             font-style: normal;
-             font-weight: 400;
-             line-height: normal;
-             padding-bottom: 12px;
-         }
-         
-         h4 {
-             color: #5D5D5D;
-             font-family: Lato;
-             font-size: 14px;
-             font-style: normal;
-             font-weight: 300;
-             line-height: normal;
-             padding-bottom: 17px;
-         }
-         
-         h5 {
-             color: #F16D7F;
-             font-family: Lato;
-             font-size: 16px;
-             font-style: normal;
-             font-weight: 400;
-             line-height: normal;
-             max-width: 315px;
-             max-height: 51px;
-         }
-         
-         .content2 {
-             display: grid;
-             grid-template-columns: repeat(3, 360px);
-             grid-template-rows: 420px;
-             margin-left: 230px;
-             gap: 30px;
-         }
-         
-         .content2_1 {
-             background-color: #F8F8F8;
-             height: 161px;
-             padding-left: 16px;
-             padding-right: 29px;
-             padding-top: 25px;
-         }
-         
-         .browse_button {
-             width: 212px;
-             height: 48px;
-             border: 1px solid #F26376;
-             color: #F26376;
-             margin-bottom: 50px;
-             /*margin-left: 695px;*/
-             background-color: #FFF;
-             font-size: 16px;
-             font-style: normal;
-             font-weight: 400;
-             line-height: normal;
-         }
-         
-         .title1 {
-             color: #FFF;
-             text-align: center;
-             font-family: Lato;
-             font-size: 16px;
-             font-style: normal;
-             font-weight: 400;
-             line-height: normal;
-         }
-         
-         .title2 {
-             color: #F16D7F;
-             font-family: Lato;
-             font-size: 24px;
-             font-style: normal;
-             font-weight: 700;
-             line-height: normal;
-             text-align: center;
-             font-style: normal;
-         }
-         
-         .parent4 {
-             display: flex;
-             flex-direction: column;
-             align-items: center;
-             /*justify-content: center;*/
-             background-image: url('./img/Rectangle.svg');
-             background-repeat: no-repeat;
-             margin-left: 230px;
-             width: 1140px;
-             max-height: 180px;
-             padding-bottom: 36px;
-             gap: 1px;
-             padding-top: 65px;
-             padding-bottom: 65px;
-             margin-bottom: 96px;
-         }
-         
-         .parent1 {
-             display: flex;
-             flex-direction: column;
-             align-items: center;
-             justify-content: center;
-             background-image: url('./img/lady.png');
-             background-repeat: no-repeat;
-             width: 360px;
-             height: 260px;
-         }
-         
-         .parent2 {
-             display: flex;
-             flex-direction: column;
-             align-items: center;
-             justify-content: center;
-             background-image: url('./img/man.png');
-             background-repeat: no-repeat;
-             width: 360px;
-             max-height: 260px;
-         }
-         
-         .parent3 {
-             display: flex;
-             flex-direction: column;
-             align-items: center;
-             justify-content: center;
-             background-image: url('./img/kid.png');
-             background-repeat: no-repeat;
-             width: 360px;
-             max-height: 260px;
-         }
-         
-         .child {
-             display: flex;
-             flex-direction: column;
-             align-items: center;
-             justify-content: center;
-             margin: 0 -5px
-         }
-         
-         .item {
-             flex: 1 1 auto;
-             margin: 0 5px;
-         }
-         
-         .darkened {
-             position: relative;
-         }
-         
-         .darkened::before {
-             content: '';
-             position: absolute;
-             top: 0;
-             left: 0;
-             right: 0;
-             bottom: 0;
-             background-color: rgba(115, 115, 115, 0.69);
-             z-index: 1;
-         }
-         
-         .center {
-             margin-left: calc(50% - 800px);
-             margin-right: calc(50% - 800px);
-         }
-         /* планшет */
-         
-         @media (max-width: 1024px) and (min-width: 768px) {
-             .container {
-                 width: 768px;
-             }
-             .top_menu {
-                 width: 100%;
-                 height: 74px;
-                 gap: 420px;
-             }
-             .group {
-                 margin-top: 18px;
-                 margin-left: 32px;
-             }
-             .top1 {
-                 width: 386px;
-                 height: 368px;
-             }
-             .top2 {
-                 width: 12px;
-                 height: 92px;
-             }
-             .top3 {
-                 width: 360px;
-                 height: 78px;
-                 margin-left: 0px;
-             }
-             .top {
-                 display: grid;
-                 grid-template-columns: 386px 386px;
-                 margin: 0;
-                 /*gap: 2px;*/
-                 width: 770px;
-                 height: 367px;
-             }
-             .parent4 {
-                 width: 734px;
-                 margin-left: 16px;
-             }
-             .parent1 {
-                 width: 231px;
-                 height: 167px;
-             }
-             .parent2 {
-                 width: 231px;
-                 height: 167px;
-                 margin-left: 0px;
-             }
-             .parent3 {
-                 width: 231px;
-                 height: 167px;
-             }
-             .menu {
-                 gap: 19px;
-                 margin-left: 16px;
-             }
-             h1 {
-                 text-indent: 290px;
-             }
-             h2 {
-                 text-indent: 216px;
-             }
-             .content1 {
-                 margin-left: 16px;
-                 flex-wrap: wrap;
-                 grid-template-columns: repeat(2, 360px);
-                 gap: 16px;
-             }
-             .center {
-                 margin-left: calc(50% - 384px);
-                 margin-right: calc(50% - 384px);
-             }
-         }
-         
-         @media (max-width: 767px) and (min-width: 320px) {
-             .container {
-                 width: 375px;
-             }
-             .top_menu {
-                 width: 100%;
-                 height: 74px;
-                 gap: 200px;
-             }
-             .group {
-                 margin-top: 18px;
-                 margin-left: 16px;
-                 margin-bottom: 18px;
-                 width: 44px;
-             }
-             .forma {
-                 margin-bottom: 18px;
-             }
-             .button {
-                 margin-top: 15px;
-             }
-             .top1 {
-                 width: 386px;
-                 height: 368px;
-             }
-             .top2 {
-                 margin-left: 56px;
-                 width: 12px;
-                 height: 92px;
-             }
-             .top3 {
-                 width: 236px;
-                 height: 66px;
-                 margin-left: 0px;
-             }
-             .top {
-                 display: flex;
-                 flex-direction: columns;
-                 margin-left: 1px;
-                 gap: 2px;
-                 width: 375px;
-                 height: 363px;
-             }
-             .parent4 {
-                 width: 343px;
-                 height: 111px;
-                 margin-left: 16px;
-             }
-             .parent1 {
-                 width: 343px;
-                 height: 247px;
-             }
-             .parent2 {
-                 width: 343px;
-                 height: 247px;
-                 margin-left: 0px;
-             }
-             .parent3 {
-                 width: 343px;
-                 height: 247px;
-             }
-             .menu {
-                 gap: 32px;
-                 margin-left: 16px;
-                 display: flex;
-                 flex-direction: column;
-             }
-             h1 {
-                 text-indent: 99px;
-             }
-             h2 {
-                 text-indent: 25px;
-             }
-             .content1 {
-                 margin-top: 64px;
-                 margin-left: 8px;
-                 flex-wrap: wrap;
-                 grid-template-columns: repeat(1, 360px);
-                 gap: 16px;
-             }
-             .center {
-                 margin-left: calc(50% - 187px);
-                 margin-right: calc(50% - 187px);
-             }
-             .hidden {
-                 display: none;
-             }
-             .right {
-                 margin-top: 148px;
-                 margin-bottom: 149px;
-             }
-             .b1 {
-                 width: 32px;
-                 height: 23px;
-                 margin-bottom: 26px;
-                 margin-top: 25px;
-             }
-         }
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.common {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button {
+    position: relative;
+    margin-top: 26px;
+}
+
+.b2 {
+    height: 29px;
+}
+
+.group {
+    margin-top: 18px;
+    margin-left: 231px;
+    width: 44px;
+    height: 38px;
+}
+
+.top_menu {
+    display: flex;
+    background-color: #000;
+    width: 1600px;
+    height: 75px;
+    flex-direction: space-between;
+    gap: 859px;
+}
+
+.top_menu_left {
+    display: flex;
+    flex-direction: space-between;
+    gap: 41px;
+    margin-bottom: 19px;
+}
+
+.top_menu_right {
+    display: flex;
+    flex-direction: space-between;
+    margin-right: 240px;
+    gap: 25px;
+    width: 159px;
+    margin-bottom: 20px;
+}
+
+.forma {
+    width: 26px;
+    height: 26px;
+    margin-top: 28px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 65px;
+    margin-left: auto;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-self: center;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: 800px 800px;
+    background-color: #F1E4E6;
+    width: 1600px;
+    height: 764px;
+}
+
+.top1 {
+    width: 800px;
+    height: 764px;
+}
+
+.top2 {
+    width: 12px;
+    height: 92px;
+}
+
+.top3 {
+    width: 377px;
+    height: 93px;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.img4 {
+    margin-left: 230px;
+    width: 1140px;
+    height: 180px;
+    margin-bottom: 96px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    color: #222;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+h2 {
+    color: #9F9F9F;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.content1 {
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    grid-template-rows: 581px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 30px;
+    margin-top: 47px;
+    margin-bottom: 46px;
+    justify-content: center;
+}
+
+.img1_1 {
+    background-image: url('./img/Rectangle_rose.png');
+    padding-left: 108px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    height: 420px;
+    background-repeat: repeat;
+}
+
+h3 {
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 12px;
+}
+
+h4 {
+    color: #5D5D5D;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-bottom: 17px;
+}
+
+h5 {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 315px;
+    max-height: 51px;
+}
+
+.content2 {
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    grid-template-rows: 420px;
+    margin-left: 230px;
+    gap: 30px;
+}
+
+.content2_1 {
+    background-color: #F8F8F8;
+    height: 161px;
+    padding-left: 16px;
+    padding-right: 29px;
+    padding-top: 25px;
+}
+
+.browse_button {
+    width: 212px;
+    height: 48px;
+    border: 1px solid #F26376;
+    color: #F26376;
+    margin-bottom: 50px;
+    background-color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title2 {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    font-style: normal;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+.parent4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('./img/Rectangle.svg');
+    background-repeat: no-repeat;
+    margin-left: 230px;
+    width: 1140px;
+    max-height: 180px;
+    padding-bottom: 36px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    margin-bottom: 96px;
+    justify-content: center;
+}
+
+.parent1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./img/lady.png');
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 260px;
+}
+
+.parent2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./img/man.png');
+    background-repeat: no-repeat;
+    width: 360px;
+    max-height: 260px;
+}
+
+.parent3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./img/kid.png');
+    background-repeat: no-repeat;
+    width: 360px;
+    max-height: 260px;
+}
+
+.child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 -5px
+}
+
+.item {
+    flex: 1 1 auto;
+    margin: 0 5px;
+}
+
+.darkened {
+    position: relative;
+}
+
+.darkened::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(115, 115, 115, 0.69);
+    z-index: 1;
+}
+
+.center {
+    margin-left: calc(50% - 800px);
+    margin-right: calc(50% - 800px);
+}
+
+
+/* планшет */
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+    .top_menu {
+        width: 100%;
+        height: 74px;
+        gap: 420px;
+    }
+    .group {
+        margin-top: 18px;
+        margin-left: 32px;
+    }
+    .top1 {
+        width: 386px;
+        height: 368px;
+    }
+    .top2 {
+        width: 12px;
+        height: 92px;
+    }
+    .top3 {
+        width: 348px;
+        height: 78px;
+        margin-left: 0px;
+    }
+    .top {
+        display: grid;
+        grid-template-columns: 384px 384px;
+        margin-bottom: 65px;
+        /*gap: 2px;*/
+        width: 770px;
+        height: 367px;
+    }
+    .parent4 {
+        width: 734px;
+        margin: auto;
+        height: 116px;
+    }
+    .parent1 {
+        width: 231px;
+        height: 167px;
+    }
+    .parent2 {
+        width: 231px;
+        height: 167px;
+        margin-left: 0px;
+    }
+    .parent3 {
+        width: 231px;
+        height: 167px;
+    }
+    .parent {
+        gap: 20px;
+    }
+    .menu {
+        gap: 19px;
+        margin: auto;
+    }
+    h1 {
+        margin-top: 110px;
+    }
+    .content1 {
+        flex-wrap: wrap;
+        grid-template-columns: repeat(2, 360px);
+        gap: 16px;
+    }
+    .center {
+        margin-left: calc(50% - 384px);
+        margin-right: calc(50% - 384px);
+    }
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+    .container {
+        width: 375px;
+    }
+    .top_menu {
+        width: 100%;
+        height: 74px;
+        gap: 200px;
+    }
+    .group {
+        margin-top: 18px;
+        margin-left: 16px;
+        margin-bottom: 18px;
+        width: 44px;
+    }
+    .forma {
+        margin-bottom: 18px;
+    }
+    .button {
+        margin-top: 15px;
+    }
+    .top1 {
+        width: 386px;
+        height: 368px;
+    }
+    .top2 {
+        margin-left: 56px;
+        width: 12px;
+        height: 92px;
+    }
+    .top3 {
+        width: 220px;
+        height: 66px;
+        margin-left: 0px;
+    }
+    .top {
+        display: flex;
+        flex-direction: columns;
+        margin-left: 1px;
+        gap: 2px;
+        width: 375px;
+        height: 363px;
+        margin-bottom: 64px;
+    }
+    .parent4 {
+        width: 343px;
+        height: 111px;
+        margin: auto;
+    }
+    .parent1 {
+        width: 343px;
+        height: 247px;
+    }
+    .parent2 {
+        width: 343px;
+        height: 247px;
+        margin-left: 0px;
+    }
+    .parent3 {
+        width: 343px;
+        height: 247px;
+    }
+    .menu {
+        gap: 32px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    h1 {
+        margin-top: 64px;
+    }
+    .content1 {
+        margin-top: 64px;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(1, 359px);
+        gap: 16px;
+    }
+    .center {
+        margin-left: calc(50% - 187.5px);
+        margin-right: calc(50% - 187.5px);
+    }
+    .hidden {
+        display: none;
+    }
+    .right {
+        margin-top: 148px;
+        margin-bottom: 149px;
+    }
+    .b1 {
+        width: 32px;
+        height: 23px;
+        margin-bottom: 26px;
+        margin-top: 25px;
+    }
+    .parent {
+        flex-wrap: wrap;
+    }
+    .content1 {
+        justify-content: center;
+    }
+}
