@@ -668,4 +668,68 @@ h6 {
     .content1 {
         justify-content: center;
     }
+    .bottom1 {
+        width: 375px;
+        height: 610px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0px;
+        margin: auto;
+        justify-content: center;
+        padding-top: 48px;
+        /*padding-bottom: 81px;*/
+        gap: 20px;
+    }
+    .bottom3 {
+        flex-direction: column;
+        width: 375px;
+        height: 143px;
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 43px;
+        padding-bottom: 9px;
+    }
+    .bottom_content {
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        margin-top: auto;
+        margin-bottom: auto;
+        align-items: center;
+    }
+    .bot1 {
+        gap: 14px;
+    }
+    .bot2 {
+        gap: 59px;
+    }
+    .bottom2 {
+        width: 375px;
+        height: 614px;
+        flex-direction: space-between;
+        gap: 48px;
+        margin: auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0px;
+    }
+    .bottom4 {
+        display: flex;
+        flex-direction: row;
+        padding-left: 114px;
+        gap: 7px;
+    }
+    .title6 {
+        max-width: 360px;
+        text-align: center;
+    }
+    .pict {
+        width: 43px;
+        height: 30px;
+    }
+    .title1 {
+        width: 251px;
+        text-align: center;
+    }
 }
