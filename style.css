@@ -773,7 +773,7 @@
                 .bottom4 {
                     display: flex;
                     flex-direction: row;
-                    padding-left: 114px;
+                    margin: auto 0;
                     gap: 7px;
                 }
                 .title6 {
