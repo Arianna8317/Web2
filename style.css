@@ -404,6 +404,10 @@
                 gap: 8px;
             }
             
+            .bot4 {
+                gap: 32px;
+            }
+            
             .pict {
                 width: 45px;
                 height: 32px;
@@ -462,6 +466,37 @@
             .bottom4 {
                 display: flex;
                 gap: 7px;
+            }
+            
+            .subscribe {
+                display: flex;
+                flex-direction: row;
+            }
+            
+            .subscribe_button {
+                width: 100px;
+                height: 49px;
+                border: 1px solid #F26376;
+                color: #FFF;
+                background-color: #F26376;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                transition: 0.5s;
+                border-radius: 0px 100px 100px 0px;
+            }
+            
+            .mail {
+                width: 264px;
+                height: 49px;
+                color: #222224;
+                font-family: Lato;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                border-radius: 100px 0px 0px 100px;
             }
             /* планшет */
             
@@ -567,6 +602,9 @@
                 }
                 .bot1 {
                     gap: 28px;
+                }
+                .bot4 {
+                    gap: 27px;
                 }
                 .bottom2 {
                     width: 768px;
@@ -746,5 +784,8 @@
                 .title1 {
                     width: 251px;
                     text-align: center;
+                }
+                .bot4 {
+                    gap: 29px;
                 }
             }
