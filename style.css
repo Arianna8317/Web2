@@ -619,6 +619,9 @@
                 .title6 {
                     max-width: 360px;
                 }
+                .bottom4 {
+                    margin-top: 24px;
+                }
             }
             
             @media (max-width: 767px) and (min-width: 320px) {
@@ -734,7 +737,7 @@
                     gap: 20px;
                 }
                 .bottom3 {
-                    flex-direction: column;
+                    flex-direction: column-reverse;
                     width: 375px;
                     height: 143px;
                     gap: 40px;
