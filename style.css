@@ -27,6 +27,29 @@
     height: 38px;
 }
 
+.header__search:hover svg,
+.header__burger:hover svg,
+.header__account:hover svg,
+.header__cart:hover svg {
+    fill: brown;
+}
+
+.header__counter {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(241, 109, 127, 1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 12px;
+    line-height: 14.4px;
+    position: absolute;
+    top: -5px;
+    right: -9px;
+}
+
 .top_menu {
     display: flex;
     background-color: #000;
@@ -34,6 +57,7 @@
     height: 75px;
     flex-direction: space-between;
     gap: 859px;
+    position: relative;
 }
 
 .top_menu_left {
@@ -50,6 +74,17 @@
     gap: 25px;
     width: 159px;
     margin-bottom: 20px;
+    margin-top: 26px;
+    position: relative;
+    display: flex;
+    /*gap: 30px;*/
+}
+
+.top_menu_right svg {
+    transition: all .3s ease;
+    background-color: black;
+    opacity: 1;
+    border-color: black;
 }
 
 .forma {
@@ -699,7 +734,8 @@ h6 {
     .bottom2 {
         width: 768px;
         height: 614px;
-        /*flex-direction: space-between;*/
+        justify-content: space-between;
+        ;
         margin: auto;
         flex-direction: column;
         flex-wrap: wrap;
