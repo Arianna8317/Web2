@@ -424,6 +424,8 @@ h5 {
 .bottom2 {
     display: flex;
     background-image: url('./img/bot_back.png');
+    background-size: cover;
+    opacity: 0.75;
     background-repeat: no-repeat;
     width: 1600px;
     height: 448px;
@@ -449,7 +451,7 @@ h5 {
 .background-image {
     background: url('./img/aside.png') no-repeat center;
     background-size: cover;
-    opacity: 0.05;
+    opacity: 0.5;
     width: 100%;
     height: 100%;
     position: absolute;
