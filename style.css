@@ -466,6 +466,7 @@ h5 {
 .face {
     width: 96px;
     height: 96px;
+    position: relative;
 }
 
 h6 {
